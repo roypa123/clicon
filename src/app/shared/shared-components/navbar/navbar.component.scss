@@ -1,0 +1,27 @@
+@import "../../../../styles/color";
+
+.main-container {
+  padding: 0;
+  background-color: $clicon-secondary-700;
+
+  .top-section {
+    height: 52px;
+    width: 100%;
+    display: flex;
+    color: $clicon-grey-0;
+    font-size: 14;
+    font-weight: 400;
+
+    .box {
+
+      padding-top: 12px;
+      padding-bottom: 12px;
+    }
+
+    .space1 {
+      width: 250px;
+    }
+
+
+  }
+}
