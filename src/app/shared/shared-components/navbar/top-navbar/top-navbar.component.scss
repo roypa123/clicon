@@ -1,0 +1,35 @@
+@import "../../../../../styles/color";
+
+.top-section {
+  height: 52px;
+  width: 100%;
+  display: flex;
+  color: $clicon-grey-0;
+  font-size: 14;
+  font-weight: 400;
+  background-color: $clicon-secondary-700;
+  align-items: center;
+
+  .box {
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    .box1{
+      padding: 6px;
+    }
+  }
+
+  .space1 {
+    width: 250px;
+  }
+
+  .vertical_spacer{
+    height: 40px;
+    width: 1px;
+    background-color: $clicon-secondary-600;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+
+}

@@ -1,12 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
+import { TopNavbarComponent } from './navbar/top-navbar/top-navbar.component';
+import { MiddleNavbarComponent } from './navbar/middle-navbar/middle-navbar.component';
 
 
 
 @NgModule({
   declarations: [
-    NavbarComponent
+    NavbarComponent,
+    TopNavbarComponent,
+    MiddleNavbarComponent
   ],
   imports: [
     CommonModule

@@ -1,0 +1,13 @@
+@import "../../../../../styles/color";
+
+.middle-section {
+  height: 88px;
+  width: 100%;
+  display: flex;
+  color: $clicon-grey-0;
+  font-size: 14;
+  font-weight: 400;
+  background-color: $clicon-secondary-700;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
