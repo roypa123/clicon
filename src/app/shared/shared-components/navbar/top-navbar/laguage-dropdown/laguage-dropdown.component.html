@@ -1,0 +1,12 @@
+<div class="dropdown">
+  <button class="dropdown-button" (click)="toggleDropdown()">{{ selectedOption?.country_short }}</button>
+  <div class="dropdown-menu" *ngIf="isOpen">
+    <div class="dropdown-item" *ngFor="let item of items" (click)="select(item)">
+      <img   src={{item.country_flag}} width="20">
+      <div class="language">
+        {{ item.language }}
+      </div>
+      <img  *ngIf="selectedOption?.id == item.id" src="assets/icons/check.svg" width="20">
+    </div>
+  </div>
+</div>
